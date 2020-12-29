@@ -1,0 +1,18 @@
+.rainbow {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0.1, rgb(44, 94, 204)), color-stop(0.9, rgb(255, 104, 34)) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
